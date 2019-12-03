@@ -1,4 +1,4 @@
-This is a smol repo with my solutions to this year's Advent of Code
+This is a smol repo with my solutions to this year's [Advent of Code](https://adventofcode.com/2019)
 ---
 On each day you get a puzzle to solve with given input.
 <br>
