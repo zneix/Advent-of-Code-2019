@@ -3,10 +3,8 @@ let input = 1;
 let asd = 0; //pointer
 while (true){
     let opc = arr[asd]%100;
-    let m1 = parseInt(arr[asd].toString().split('').reverse()[2])==1?1:0;
-    let m2 = parseInt(arr[asd].toString().split('').reverse()[3])==1?1:0;
-    let x1 = m1==1?arr[asd+1]:arr[arr[asd+1]];
-    let x2 = m2==1?arr[asd+2]:arr[arr[asd+2]];
+    let x1 = parseInt(arr[asd].toString().split('').reverse()[2])==1?arr[asd+1]:arr[arr[asd+1]];
+    let x2 = parseInt(arr[asd].toString().split('').reverse()[3])==1?arr[asd+2]:arr[arr[asd+2]];
     switch(opc){
         case 1:
             arr[arr[asd+3]] = x1 + x2;
