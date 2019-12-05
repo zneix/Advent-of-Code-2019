@@ -23,7 +23,7 @@ while (true){
             asd += 2;
             break;
         case 5:
-            if (x1 != 0) {asd = x2;break;}
+            if (x1 != 0) asd = x2;
             else asd += 3;
             break;
         case 6:
@@ -39,6 +39,5 @@ while (true){
             asd += 4;
             break;
         case 99: return;
-        default: return console.log('supreme error at asd='+asd);
     }
 }
