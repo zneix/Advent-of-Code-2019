@@ -19,7 +19,7 @@ while (true){
             asd += 2;
             break;
         case 4:
-            console.log(arr[arr[asd+1]]);
+            console.log(x1);
             asd += 2;
             break;
         case 99: return;
