@@ -1,3 +1,5 @@
 admincode.txt
 all/*
 */node_modules*
+*/package.json
+*/package-lock.json
