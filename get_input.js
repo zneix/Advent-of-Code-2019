@@ -12,6 +12,6 @@ function getInput(day, year){
         if (stdout == errmsg) return console.log('[ERR] N/A yet!');
         if (stdout == '404 Not Found\n') return console.log('[ERR] Error 404!');
         let filename = 'input';
-        return fs.writeFile(`${process.cwd()}\\${filename}`, stdout.toString(), () => console.log(`[OK!] ${day}/${year}\n[OK!] ${process.cwd()}\\${filename} (${parseInt(stdout.length-1)})`));
+        return fs.writeFile(`${process.cwd()}\\${filename}`, stdout.substring(0, stdout.length-1), () => console.log(`[OK!] ${day}/${year}\n[OK!] ${process.cwd()}\\${filename} (${parseInt(stdout.length-1)})`));
     });
 }
