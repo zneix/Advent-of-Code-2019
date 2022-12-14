@@ -8,3 +8,18 @@ input.*
 /node_modules*
 /package.json
 package-lock.json
+
+# binaries
+*.out
+*.bin
+main
+bin/
+
+# random commented-out garbage code
+*.go_
+
+# misc uncleaned stuff
+input_test
+output*
+visuali[sz]ation*
+misc/
